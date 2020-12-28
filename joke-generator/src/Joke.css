@@ -1,0 +1,23 @@
+.jokeContainer {
+    width: 500px;
+    margin: 10px auto 10px auto;
+}
+.jokeContainer > div, .jokeContainer > button {
+    margin: 10px;
+}
+.jokeContainer > button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: thin solid gray;
+    border-radius: 5px;
+}
+.likesContainer button {
+    width: 75px;
+    height: 35px;
+    border: none;
+    background-color: white;
+} 
+.textContainer {
+    display: block;
+}
