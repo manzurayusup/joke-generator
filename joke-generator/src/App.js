@@ -5,6 +5,8 @@ import { url, key, host } from './components/global';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import SubmitJokeForm from './components/SubmitJokeForm';
+import ContactUs from './components/ContactUs';
+import About from './components/About';
 //import Joke from './components/Joke';
 
 class App extends Component {
@@ -23,16 +25,12 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route path="/" component={Home} exact />
-            {/* <Route path="/about" component={About} /> */}
-            <Route path="/submit-joke" component={SubmitJokeForm} />
-            {/* <Route path="/contact-us" component={ContactUs} /> */}
+            <Route path="/about" component={About} />
+            <Route path="/submit-joke" render={(props) => <SubmitJokeForm submitJoke={this.submitJoke} />} />
+            <Route path="/contact-us" component={ContactUs} />
           </Switch>
         </div>
       </BrowserRouter>
-      // <div>
-      //   <Joke />
-      //   <SubmitJokeForm submitJoke={this.submitJoke} />
-      // </div>
     );
 
 

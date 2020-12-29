@@ -1,23 +1,27 @@
 .jokeContainer {
     width: 500px;
-    margin: 10px auto 10px auto;
+    margin: 30px auto 10px auto;
+    padding-left: 5px;
 }
 .jokeContainer > div, .jokeContainer > button {
     margin: 10px;
 }
 .jokeContainer > button {
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
     background-color: white;
     border: thin solid gray;
     border-radius: 5px;
 }
-.likesContainer button {
-    width: 75px;
-    height: 35px;
-    border: none;
-    background-color: white;
-} 
 .textContainer {
     display: block;
+    width: 420px;
+    line-height: 1.5;
 }
+.likesContainer button {
+    width: 75px;
+    height: 40px;
+    background-color: white;
+    border: none;
+} 

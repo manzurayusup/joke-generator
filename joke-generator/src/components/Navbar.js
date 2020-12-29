@@ -7,6 +7,7 @@ import { NavLink } from 'react-router-dom';
 function Navbar(props) {
     return (
         <div className="navbar">
+            <span id="logo">Take A Break</span>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/submit-joke">Submit A Joke</NavLink>

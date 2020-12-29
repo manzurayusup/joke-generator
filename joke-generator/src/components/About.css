@@ -1,0 +1,28 @@
+.aboutContainer {
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: lightblue;
+}
+.aboutContainer .pageTitle {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.aboutContainer img {
+    width: 200px;
+    /* height: auto; */
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+.aboutContent {
+    text-align: justify;
+}
+#aboutPicture {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

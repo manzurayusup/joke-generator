@@ -1,13 +1,25 @@
 .navbar {
-    /* height: 40px; */
-    padding: 20px;
+    height: 45px;
+    /* padding-bottom: 20px; */
+    padding-top: 20px;
+    padding-bottom: 0px;
     text-align: center;
     border: thin solid blue;
 }
 
 .navbar a {
     text-decoration: none;
-    margin: 8px;
+    margin: 8px 8px 0px 8px;
     color: black;
     border: thin solid black;
+}
+.navbar #logo {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-family: 'Bangers', cursive;
+    font-size: 35px;
+    padding: 10px;
+    margin-left: 10px;
+    /* background-color: blue; */
 }

@@ -1,0 +1,48 @@
+
+#contactUsForm {
+    width: 400px;
+    padding: 20px;
+    margin: 15px auto 10px auto;
+}
+#contactUsForm label {
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#contactUsForm label span {
+    display: inline-block;
+    width: 90px;
+    height: 25px;
+}
+#contactUsForm input {
+    width: 200px;
+    height: 25px;
+}
+#contactUsForm textarea {
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    width: 300px;
+    height: 100px;
+}
+
+#contactUsForm input, #contactUsForm textarea {
+    border: thin solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+#contactUsForm input:focus, #contactUsForm textarea:focus {
+    border: thin solid orange;
+}
+
+#contactUsForm input[type="submit"] {
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 75px;
+    height: 32px;
+    background-color: white;
+    border: thin solid gray;
+    border-radius: 5px;
+}
