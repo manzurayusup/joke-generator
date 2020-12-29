@@ -1,9 +1,0 @@
-#jokeForm textarea {
-    width: 300px;
-    height: 50px;
-    display: block;
-}
-
-#jokeForm * {
-    margin: 5px;
-}

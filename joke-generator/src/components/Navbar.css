@@ -1,0 +1,13 @@
+.navbar {
+    /* height: 40px; */
+    padding: 20px;
+    text-align: center;
+    border: thin solid blue;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin: 8px;
+    color: black;
+    border: thin solid black;
+}

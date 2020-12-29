@@ -1,0 +1,35 @@
+#jokeForm strong, #jokeForm textarea, #jokeForm input[type="submit"] {
+    margin: 15px;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+#jokeForm {
+    width: 400px;
+    padding: 20px;
+    margin: 15px auto 10px auto;
+}
+#jokeForm strong {
+    font-size: 20px;
+}
+#jokeForm textarea {
+    display: block;
+    width: 350px;
+    height: 60px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+#jokeForm textarea:focus {
+    background-color: #f1f3f2;
+}
+#jokeForm input[type="submit"] {
+    font-size: 15px;
+    margin-top: 0px;
+    width: 75px;
+    height: 32px;
+    background-color: white;
+    border: thin solid gray;
+    border-radius: 5px;
+}
+

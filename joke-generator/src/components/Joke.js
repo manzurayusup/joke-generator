@@ -16,7 +16,7 @@ class Joke extends Component {
         this.upvoteJoke = this.upvoteJoke.bind(this);
         this.downvoteJoke = this.downvoteJoke.bind(this);
     }
-    // TODO: add like/unlike functionality
+    
     render() {
         return (
             <div id={this.props.id} className="jokeContainer">
