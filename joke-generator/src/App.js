@@ -40,9 +40,9 @@ class App extends Component {
   // componentDidMount() {
 
   // }
-  submitJoke(e) {
-    e.preventDefault();
-    let jokeText = e.target.parentElement.jokeInput.value;  // get user input from form
+  submitJoke(event) {
+    event.preventDefault();
+    let jokeText = event.target.parentElement.jokeInput.value;  // get user input from form
     console.log(jokeText);
     let data = {  // joke object to send to API
       "content": jokeText,
