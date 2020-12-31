@@ -64,7 +64,7 @@ class Joke extends Component {
             });
           }
         }
-        http.open("GET", url + "/2d6c37fc75bc42f383864555f0b8f110");
+        http.open("GET", url);
         http.setRequestHeader("x-rapidapi-key", key);
         http.setRequestHeader("x-rapidapi-host", host);
         http.send();
