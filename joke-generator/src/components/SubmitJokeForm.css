@@ -4,20 +4,22 @@
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 #jokeForm { /* form element */
-    box-sizing: border-box;
-    width: 400px;
+    /* box-sizing: border-box; */
+    width: 450px;
     min-height: 500px;
     padding: 20px;
     margin: 15px auto 10px auto;
-    background-color: blue; /* debug */
+    /* background-color: blue;  */
+    border: thin solid lightgray;
 }
 #jokeForm strong {
     font-size: 20px;
 }
 #jokeForm textarea {
+    box-sizing: border-box;
     display: block;
-    width: 350px;
-    height: 60px;
+    width: 400px;
+    height: 95px;
     padding: 8px;
     font-size: 16px;
     border-radius: 5px;
@@ -36,3 +38,13 @@
     border-radius: 5px;
 }
 
+
+@media (min-width: 280px) and (max-width: 500px) {
+    #jokeForm {
+        width: 90%;
+    }
+    #jokeForm textarea {
+        width: 90%;
+    }
+
+}

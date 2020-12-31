@@ -12,7 +12,6 @@
     text-decoration: none;
     margin: 8px 15px 0px 15px;
     color: black;
-    /* border: thin solid black; */
 }
 .navbar #logo {
     position: absolute;
@@ -22,7 +21,7 @@
     font-size: 35px;
     padding: 10px;
     margin-left: 10px;
-    /* background-color: blue; */
+    
 }
 
 #emoji {
@@ -33,12 +32,23 @@
     
 }
 
-@media screen and (min-width: 280px) and (max-width: 500px) {
-    #emoji {
-        display: none;
-    }
+@media screen and (min-width: 280px) and (max-width: 780px) {
+
     .navbar .navlink {
         display: none;
+    }
+    
+}
+
+@media screen and (min-width: 280px) and (max-width: 300px) {
+    #emoji {
+        width: 28px;
+        position: absolute;
+        top: 15px;
+        left: 176px;
+    }
+    .navbar #logo {
+        font-size: 30px;
     }
     
 }

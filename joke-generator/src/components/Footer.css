@@ -10,20 +10,11 @@
     margin: 10px 5px 20px 5px;
     float: right;
 }
-/* .footer .fab {
-    
-} */
 #copyright {
     position: absolute;
     top: 20px;
     left: 20px;
 }
-.fa-facebook-square {
-    color: #4267B2;
-}
-.fa-twitter {
-    color: #1DA1F2;
-}
-.fa-youtube {
-    color: #FF0000;
+.footer .fab {
+    color: black;
 }
