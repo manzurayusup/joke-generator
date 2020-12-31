@@ -22,7 +22,7 @@ class App extends Component {
         <div>
           <Navbar />
           <Switch>
-            <Route path="/" component={Home} />
+            <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
             <Route path="/submit-joke" render={(props) => <SubmitJokeForm submitJoke={this.submitJoke} />} />
             <Route path="/contact-us" component={ContactUs} />
