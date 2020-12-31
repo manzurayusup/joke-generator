@@ -1,17 +1,18 @@
 .navbar {
+    width: 100%;
     height: 45px;
-    /* padding-bottom: 20px; */
     padding-top: 20px;
     padding-bottom: 0px;
     text-align: center;
-    border: thin solid blue;
+    border: thin solid gray;
+    
 }
 
 .navbar a {
     text-decoration: none;
-    margin: 8px 8px 0px 8px;
+    margin: 8px 15px 0px 15px;
     color: black;
-    border: thin solid black;
+    /* border: thin solid black; */
 }
 .navbar #logo {
     position: absolute;
@@ -22,4 +23,22 @@
     padding: 10px;
     margin-left: 10px;
     /* background-color: blue; */
+}
+
+#emoji {
+    width: 42px;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    
+}
+
+@media screen and (min-width: 280px) and (max-width: 500px) {
+    #emoji {
+        display: none;
+    }
+    .navbar .navlink {
+        display: none;
+    }
+    
 }

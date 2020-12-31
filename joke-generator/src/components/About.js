@@ -5,19 +5,22 @@ import './About.css';
 function About(props) {
     return (
         <div className="aboutContainer">
-            <h1 className="pageTitle">About Us</h1>
+            <div id="aboutTop">
+                <h1 className="pageTitle">Our Story</h1>
+            </div>
+
             <div className="aboutContent">
-                <img id="aboutPicture" src={pic} alt="Me and Peanut" />
-                <p>
-                    Hello there! I'm Manzura and this is my cat Peanut. I created this website,
-                    so that people can take a break from studying, work, or anything requiring 
-                    a lot of energy and relax a little bit. I designed my website to be fun and 
-                    interactive, so anyone can come here and generate random jokes, learn about 
-                    quick and easy DIY stuff they can do, and even submit their own jokes! If you 
-                    have any suggestions to make this website better, please let me know by clicking
-                    "Contact Us" and sending me your suggestion!
-                </p>
                 
+                <p>
+                    Hello there! I'm Manzura and this is my cat Peanut. Peanut and I created this website,
+                    so that people can take a break from studying, work, or anything requiring 
+                    a lot of energy and relax a little bit. We designed our website to be fun and 
+                    interactive. You can come here and generate random jokes, read cute pet
+                    news (taken from The Dodo), and even submit your own joke to the API (not really, 
+                    but you can try)! If you have any suggestions to make this website better, please 
+                    let us know by clicking "Contact Us" and sending us your suggestion! 
+                </p>
+                <img id="aboutPicture" src={pic} alt="Me and Peanut" />
             </div>
         </div>
     );

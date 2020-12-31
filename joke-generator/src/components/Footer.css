@@ -1,0 +1,29 @@
+.footer {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 140px;
+    padding: 10px;
+    background-color: gray;
+}
+.footer a {
+    margin: 10px 5px 20px 5px;
+    float: right;
+}
+/* .footer .fab {
+    
+} */
+#copyright {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.fa-facebook-square {
+    color: #4267B2;
+}
+.fa-twitter {
+    color: #1DA1F2;
+}
+.fa-youtube {
+    color: #FF0000;
+}

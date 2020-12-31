@@ -1,0 +1,47 @@
+.hide {
+    display: none;
+}
+.show { /* list container */
+    display: block;
+    position: absolute;
+    top: 42px;
+    right: 5px;
+    padding: 0px;
+    background-color: white;
+    border: thin solid gray;
+    border-radius: 5px;
+}
+.dropdownWrapper {
+    display: none;
+}
+.dropdownHeader {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 3px;
+}
+.dropdownHeader:active {
+    background-color: lightgray;
+}
+
+@media screen and (min-width: 280px) and (max-width: 500px) {
+    .dropdownWrapper {
+        display: block;
+        float: right;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    /* styling for NavLink: */
+    .dropdownWrapper a {
+        display: block;
+        margin: 0px;
+        padding: 5px;
+        border: thin solid lightgray;
+    }
+    .dropdownWrapper a:hover {
+        background-color: lightgray;
+    }
+    
+}

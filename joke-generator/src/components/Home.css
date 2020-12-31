@@ -1,0 +1,18 @@
+.homeContainer {
+    box-sizing: border-box;
+    min-height: 500px;
+    padding-left: 20px;
+}
+
+.homeContainer h2 {
+    margin-top: 40px;
+}
+.storiesContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 280px) and (max-width: 500px) {
+   
+}

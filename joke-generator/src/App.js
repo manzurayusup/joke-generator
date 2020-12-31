@@ -7,14 +7,14 @@ import Home from './components/Home';
 import SubmitJokeForm from './components/SubmitJokeForm';
 import ContactUs from './components/ContactUs';
 import About from './components/About';
-//import Joke from './components/Joke';
+import Footer from './components/Footer';
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      //generateJoke: false
-    }
+    // this.state = {
+    //   generateJoke: false
+    // }
     this.submitJoke = this.submitJoke.bind(this);
   }
   render() {
@@ -29,6 +29,7 @@ class App extends Component {
             <Route path="/submit-joke" render={(props) => <SubmitJokeForm submitJoke={this.submitJoke} />} />
             <Route path="/contact-us" component={ContactUs} />
           </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );

@@ -1,10 +1,11 @@
 .aboutContainer {
-    width: 500px;
-    height: 400px;
+    box-sizing: border-box;
+    width: 650px;
+    min-height: 500px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
-    background-color: lightblue;
+    margin-bottom: 0px;
+    border: thin solid lightgray;
 }
 .aboutContainer .pageTitle {
     width: 160px;
@@ -14,15 +15,31 @@
 }
 .aboutContainer img {
     width: 200px;
-    /* height: auto; */
-    /* margin-right: auto;
-    margin-left: auto; */
+    margin-right: 20px;
 }
 .aboutContent {
-    text-align: justify;
+    position: relative;
+    min-height: 400px;
+    /* text-align: justify; */
+    padding: 20px;
+    text-align: center;
+}
+.aboutContent p {
+    display: inline;
 }
 #aboutPicture {
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    width: 250px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#aboutTop {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    vertical-align: middle;
+    background-color: lightgray;
+
 }
