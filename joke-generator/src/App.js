@@ -12,9 +12,7 @@ import Footer from './components/Footer';
 class App extends Component {
   constructor(props) {
     super(props);
-    // this.state = {
-    //   generateJoke: false
-    // }
+   
     this.submitJoke = this.submitJoke.bind(this);
   }
   render() {
@@ -37,9 +35,6 @@ class App extends Component {
 
   }
 
-  // componentDidMount() {
-
-  // }
   submitJoke(event) {
     event.preventDefault();
     let jokeText = event.target.parentElement.jokeInput.value;  // get user input from form
