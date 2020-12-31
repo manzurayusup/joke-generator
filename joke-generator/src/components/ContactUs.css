@@ -3,8 +3,8 @@
     width: 400px;
     min-height: 500px;
     padding: 20px;
-    margin: 15px auto 0px auto;
-    background-color: blue;
+    margin: 15px auto 20px auto;
+    border: thin solid lightgray;
 }
 #contactUsForm label {
     display: block;
@@ -25,7 +25,7 @@
     font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
-    width: 300px;
+    width: 340px;
     height: 100px;
 }
 
@@ -47,4 +47,15 @@
     background-color: white;
     border: thin solid gray;
     border-radius: 5px;
+}
+/* adjust the size of form and textarea for smaller screens: */
+@media (min-width: 280px) and (max-width: 410px) {
+
+    #contactUsForm {
+        width: 90%;
+    }
+    #contactUsForm textarea {
+        width: 95%;
+    }
+
 }

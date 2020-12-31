@@ -23,11 +23,11 @@ function ContactUs(props) {
                 <textarea name="suggestionInput" placeholder="Enter your suggestions here..."></textarea>
 
                 <motion.input 
-                onClick={props.submitJoke}
-                whileHover={{ scale: 1.2, backgroundColor: '#ffff00' }}
-                whileTap={{ scale: 0.9 }}
-                type="submit" 
-                value="Send" />
+                    onClick={props.submitJoke}
+                    whileHover={{ scale: 1.2, backgroundColor: '#ffff00' }}
+                    whileTap={{ scale: 0.9 }}
+                    type="submit" 
+                    value="Send" />
         </form>
     );
 

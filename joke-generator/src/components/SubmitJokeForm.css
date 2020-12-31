@@ -4,12 +4,10 @@
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 #jokeForm { /* form element */
-    /* box-sizing: border-box; */
     width: 450px;
     min-height: 500px;
     padding: 20px;
     margin: 15px auto 10px auto;
-    /* background-color: blue;  */
     border: thin solid lightgray;
 }
 #jokeForm strong {
