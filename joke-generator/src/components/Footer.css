@@ -19,3 +19,12 @@
 .footer .fab {
     color: black;
 }
+
+@media (width: 280px) {
+
+    #copyright {
+        top: 90px;
+        left: 120px;
+    }
+
+}

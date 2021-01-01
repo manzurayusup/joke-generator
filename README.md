@@ -4,6 +4,7 @@
 - Website name: takeabreak.com
 - API used: https://rapidapi.com/LemmoTresto/api/joke3?endpoint=apiendpoint_2b453b32-13e8-4c7b-bbae-ec17b35b9045
 - Purpose: A website where people can take a break from work and laugh/relax.
+- Website is responsive.
 
 ## Functionalities
 Users can:

@@ -2,6 +2,7 @@
     box-sizing: border-box;
     width: 650px;
     min-height: 500px;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
@@ -23,6 +24,7 @@
     width: 530px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.5;
 }
 #aboutPicture {
     width: 250px;
@@ -50,6 +52,10 @@
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #aboutPicture {
+        width: 100%;
     }
     
 }

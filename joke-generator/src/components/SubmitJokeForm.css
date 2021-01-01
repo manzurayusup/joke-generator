@@ -4,6 +4,7 @@
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 #jokeForm { /* form element */
+    box-sizing: border-box;
     width: 450px;
     min-height: 500px;
     padding: 20px;
@@ -16,7 +17,7 @@
 #jokeForm textarea {
     box-sizing: border-box;
     display: block;
-    width: 400px;
+    width: 370px;
     height: 95px;
     padding: 8px;
     font-size: 16px;
@@ -36,11 +37,19 @@
     border-radius: 5px;
 }
 
-
-@media (min-width: 280px) and (max-width: 500px) {
+/* adjust the size of elements for smaller screens: */
+@media (min-width: 280px) and (max-width: 600px) {
+    
     #jokeForm {
+        padding-left: 5px;
+        padding-right: 5px;
         width: 90%;
     }
+
+    #jokeForm strong {
+        font-size: 16px;
+    }
+
     #jokeForm textarea {
         width: 90%;
     }
