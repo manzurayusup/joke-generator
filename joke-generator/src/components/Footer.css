@@ -21,10 +21,15 @@
 }
 
 @media (width: 280px) {
-
     #copyright {
-        top: 90px;
-        left: 120px;
+        position: static;
+    }
+    .footer a {
+        float: none;
+    }
+
+    .footer a, #copyright {
+        margin-top: 20px;
     }
 
 }
