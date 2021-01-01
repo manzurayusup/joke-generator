@@ -18,6 +18,7 @@ Users cannot:
 - But I still did the front-end for these because, based on a Piazza post, it still counts toward the interactive portion
 
 ## Creative Portion
+- Sending info to API when user likes/dislikes a joke (via POST request)
 - Designed React app with multiple pages using HashRouter
 - Animations using the Framer Motion library:
     - Laughing emoji rotates once on page load
