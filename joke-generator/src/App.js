@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import { url, key, host } from './components/global';
 import Navbar from './components/Navbar';
@@ -18,7 +18,8 @@ class App extends Component {
   render() {
 
     return (
-      <BrowserRouter>
+      // HashRouter idea taken from: https: stackoverflow.com/questions/58228017/react-router-v4-cant-load-page-on-github-pages
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <div>
           <Navbar />
           <Switch>
@@ -29,7 +30,7 @@ class App extends Component {
           </Switch>
           <Footer />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
 
 

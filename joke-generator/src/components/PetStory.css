@@ -1,7 +1,6 @@
 .petStory {
     max-width: 280px;
     height: 240px;
-    /* background-color: pink; */
     text-align: center;
 
     margin-right: 10px;
@@ -9,7 +8,6 @@
     padding-top: 7px;
     padding-bottom: 20px;
     border: thin solid lightgray;
-    /* border-radius: 5px; */
 }
 .petStory img {
     object-fit: cover;
@@ -23,6 +21,5 @@
     text-decoration: none;
     color: black;
     padding: 7px;
-    /* border: thin solid gray; */
 
 }

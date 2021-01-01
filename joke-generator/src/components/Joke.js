@@ -20,12 +20,14 @@ class Joke extends Component {
     render() {
         return (
             <div id={this.props.id} className="jokeContainer">
+                {/* Random Joke button: */}
                 <motion.button
                     onClick={this.randomJoke}
                     whileHover={{ scale: 1.2, backgroundColor: '#ffff00' }}
                     whileTap={{ scale: 0.9 }}>
                     Random Joke
                 </motion.button>
+                
                 <div className="textContainer">
                     {this.state.text}
                 </div>
@@ -44,11 +46,12 @@ class Joke extends Component {
     }
 
     componentDidMount() {
-        // randomJoke() is called from here once when the page loads
+        // call randomJoke once on page refresh:
         if (!this.state.id) this.randomJoke();
     }
 
-    randomJoke() {
+    /* gets a random joke from the API via an XMLHttpRequest */
+    randomJoke() { 
         let http = new XMLHttpRequest();
         http.withCredentials = true;
         const self = this;
@@ -70,6 +73,7 @@ class Joke extends Component {
         http.send();
     }
 
+    /* Makes a POST request to the API to submit an upvote for the joke */
     upvoteJoke() {
         let xhr = new XMLHttpRequest();
         xhr.withCredentials = true;
@@ -87,6 +91,7 @@ class Joke extends Component {
         xhr.send();
     }
 
+    /* Makes a POST request to the API to submit a downvote for the joke */
     downvoteJoke() {
         let xhr = new XMLHttpRequest();
         xhr.withCredentials = true;
