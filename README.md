@@ -29,4 +29,4 @@ Users cannot:
 - Fontawesome used for icons
 
 ## Potential Issues:
-Once, the API server was down and I got 500 error, but the API worked everytime after that, but I'm worried that it might not work at the time of grading. If this happens, please know that this is a problem with the API and not my code! If you do it another day, it will work. Thank you so much :)
+Once, the API server was down and I got 500 error, but the API worked everytime after that, so I'm worried that it might not work at the time of grading. If this happens, please know that this is a problem with the API and not my code! If you do it another day, it will work. Thank you so much :)
