@@ -18,7 +18,7 @@ Users cannot:
 
 ## Creative Portion
 - Designed React app with multiple pages using HashRouter
-- Framer Motion library was used for the following animations:
+- Animations using the Framer Motion library:
     - Laughing emoji rotates once on page load
     - Buttons/icons get larger and change color on hover
 
