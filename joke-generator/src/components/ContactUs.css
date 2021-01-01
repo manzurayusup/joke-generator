@@ -48,7 +48,7 @@
     border: thin solid gray;
     border-radius: 5px;
 }
-/* adjust the size of form and textarea for smaller screens: */
+/* adjust the size of elements for smaller screens: */
 @media (min-width: 280px) and (max-width: 410px) {
 
     #contactUsForm {
