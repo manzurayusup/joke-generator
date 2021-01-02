@@ -46,6 +46,16 @@ class Home extends Component {
                         title="Teeny 1-Pound Kitten Pounces On 80-Pound Dog"
                         link="https://www.thedodo.com/videos/teeny-1-pound-kitten-pounces-on-80-pound-dog" />
 
+                    <PetStory src="https://frontiersinblog.files.wordpress.com/2020/01/frontiers-psychology-stray-dogs-human-cues-behavior.jpg"
+                        alt="Stray Dog"
+                        title="16-Year-Old Dog Gets To Be A Puppy For The First Time"
+                        link="https://www.thedodo.com/videos/16-year-old-dog-gets-to-be-a-puppy-for-the-first-time" />
+
+                    <PetStory src="https://sbly-web-prod-shareably.netdna-ssl.com/wp-content/uploads/2020/04/29160012/Cover-Photo-2020-04-29T115948.588.png"
+                        alt="Sphynx Cat"
+                        title="Cute Spooky Cat Keeps Scaring His Family"
+                        link="https://www.thedodo.com/videos/cute-spooky-cat-keeps-scaring-his-family" />
+
                 </div>
             </div>
         );
