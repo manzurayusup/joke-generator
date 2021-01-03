@@ -24,10 +24,10 @@
     
 }
 
-#emoji {
-    width: 42px;
+#coffeeEmoji {
+    width: 45px;
     position: absolute;
-    top: 10px;
+    top: 18px;
     left: 200px;
     
 }
@@ -39,10 +39,9 @@
     }
     
 }
-
+/* styling for Galaxy Fold screens */
 @media screen and (min-width: 280px) and (max-width: 300px) {
-    #emoji {
-        width: 28px;
+    #coffeeEmoji {
         position: absolute;
         top: 15px;
         left: 176px;

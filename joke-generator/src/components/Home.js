@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { motion } from 'framer-motion';
 import Joke from './Joke';
 import './Home.css';
 import PetStory from './PetStory';
+import emoji from './emoji.png';
 
 class Home extends Component {
     constructor(props) {
@@ -10,7 +12,15 @@ class Home extends Component {
     render() {
         return (
             <div className="homeContainer">
+                {/* Joke: */}
                 <Joke />
+
+                {/* Laughing emoji (from Google Images): */}
+                <motion.img
+                id="lolEmoji" src={emoji} alt="Laughing Emoji"
+                animate={{ x: -80, rotate: 360 }}
+                transition={{ duration: 1 }} 
+                />
 
                 {/* Pet news: */}
                 <h2>Read cute pet news:</h2>
