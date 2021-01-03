@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
-import pic from './emoji.png';
+import pic from './yellow_mug.png';
 import Dropdown from './Dropdown';
 
 function Navbar(props) {
@@ -10,9 +10,9 @@ function Navbar(props) {
     return (
         <div className="navbar">
             <span id="logo">Take A Break</span>
-            {/* Rotating emoji: */}
+            {/* Rotating coffee emoji (from Google Images): */}
             <motion.img
-                id="emoji" src={pic} alt="Laughing Emoji"
+                id="coffeeEmoji" src={pic} alt="Coffee"
                 animate={{ rotate: 360 }}
                 transition={{ duration: 2 }} />
             {/* Links: */}

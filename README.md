@@ -21,8 +21,9 @@ Users cannot:
 - Sending info to API when user likes/dislikes a joke (via POST request)
 - Designed React app with multiple pages using HashRouter
 - Animations using the Framer Motion library:
-    - Laughing emoji rotates once on page load
+    - Emojis/icons move on page load
     - Buttons/icons get larger and change color on hover
+- Website works on almost all screens (the dropdown in navbar can be opened and closed by clicking on it)
 
 ## Sources Used
 - All news images and the emoji picture are taken from Google Images

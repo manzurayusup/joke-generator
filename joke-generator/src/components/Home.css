@@ -1,4 +1,5 @@
 .homeContainer {
+    position: relative;
     box-sizing: border-box;
     min-height: 500px;
     padding-left: 20px;
@@ -12,4 +13,18 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
+#lolEmoji {
+    width: 90px;
+    position: absolute;
+    top: 40px;
+    right: -2em;
+    
+}
+/* adjust laughing emoji for smaller screens: */
+@media (max-width: 620px) {
+    
+    #lolEmoji {
+        width: 60px;
+        top: -4px;
+    }
+}
