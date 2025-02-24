@@ -15,10 +15,9 @@ function About(props) {
                     Hello there! I'm Manzura and this is my cat Peanut. Peanut and I created this website,
                     so that people can take a break from studying, work, or anything requiring 
                     a lot of energy and relax a little bit. We designed our website to be fun and 
-                    interactive. You can come here and generate random jokes, like/unlike the jokes, read cute pet
-                    news (taken from The Dodo), and even submit your own joke to the API (not really, 
-                    but you can try)! If you have any suggestions to make this website better, please 
-                    let us know by clicking "Contact Us" and sending us your suggestion! 
+                    interactive. You can come here and generate random jokes, like/unlike the jokes, read 
+                    cute pet news (taken from The Dodo), and even submit your own joke to the API 
+                    (jk, I haven't implemented that part yet &#128517)!  
                 </p>
                 <img id="aboutPicture" src={pic} alt="Me and Peanut" />
             </div>

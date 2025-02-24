@@ -52,3 +52,6 @@ $RECYCLE.BIN/
 
 ### Git ###
 *.orig
+
+# Files with passwords/api keys
+global.js
