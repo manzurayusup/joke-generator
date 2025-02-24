@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/joke-generator/static/css/main.6fd60866.chunk.css",
-    "main.js": "/joke-generator/static/js/main.5871873a.chunk.js",
-    "main.js.map": "/joke-generator/static/js/main.5871873a.chunk.js.map",
+    "main.js": "/joke-generator/static/js/main.3b5613b7.chunk.js",
+    "main.js.map": "/joke-generator/static/js/main.3b5613b7.chunk.js.map",
     "runtime~main.js": "/joke-generator/static/js/runtime~main.f63ae89b.js",
     "runtime~main.js.map": "/joke-generator/static/js/runtime~main.f63ae89b.js.map",
     "static/js/2.f2734ff9.chunk.js": "/joke-generator/static/js/2.f2734ff9.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.659e45e1.chunk.js": "/joke-generator/static/js/3.659e45e1.chunk.js",
     "static/js/3.659e45e1.chunk.js.map": "/joke-generator/static/js/3.659e45e1.chunk.js.map",
     "index.html": "/joke-generator/index.html",
-    "precache-manifest.85c2f6235e72490eda150e40fd09e0de.js": "/joke-generator/precache-manifest.85c2f6235e72490eda150e40fd09e0de.js",
+    "precache-manifest.a6cdb638deccdfa0b96dfb1ced74917f.js": "/joke-generator/precache-manifest.a6cdb638deccdfa0b96dfb1ced74917f.js",
     "service-worker.js": "/joke-generator/service-worker.js",
     "static/css/main.6fd60866.chunk.css.map": "/joke-generator/static/css/main.6fd60866.chunk.css.map",
     "static/media/emoji.png": "/joke-generator/static/media/emoji.0d556915.png",
