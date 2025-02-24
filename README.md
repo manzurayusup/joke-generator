@@ -1,4 +1,4 @@
-# Final Project: Notes for the grader
+# Random Joke Generator
 
 ## Basic App Info
 - Website name: takeabreak.com
@@ -15,7 +15,6 @@ Users can:
 Users cannot:
 - Submit their own joke, because the API doesn't let them
 - Send their suggestions to me 
-- But I still did the front-end for these because, based on a Piazza post, it still counts toward the interactive portion
 
 ## Creative Portion
 - Sending info to API when user likes/dislikes a joke (via POST request)
@@ -31,4 +30,4 @@ Users cannot:
 - Fontawesome used for icons
 
 ## Potential Issues:
-Once, the API server was down and I got 500 error, but the API worked everytime after that, so I'm worried that it might not work at the time of grading. If this happens, please know that this is a problem with the API and not my code! If you do it another day, it will work. Thank you so much :)
+If the API server is down, you will get an Error 500, but it should work after the API is up.
